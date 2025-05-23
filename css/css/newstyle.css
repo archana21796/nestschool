@@ -1,0 +1,44 @@
+.nestlogo{
+    width: 100px;
+    height: 50px;
+}
+.iblogo{
+    width: 50px;
+    height: 50px;
+}
+.Cambridgelogo{
+    width: 170px;
+    height: 60px;
+}
+.textorange{
+    color: #E85D04;
+}
+.textbold{
+    color: black;
+    font-weight: 700;
+}
+
+#enquiryform {
+  position: relative;
+  z-index: 2;
+}
+
+#enquiryIcon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff; /* Bootstrap secondary */
+  color: white;
+  padding: 12px 16px;
+  border-radius: 50%;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+}
+
+#enquiryIcon:hover {
+  background-color: #007bff;
+}
