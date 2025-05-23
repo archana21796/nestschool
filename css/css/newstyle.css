@@ -68,3 +68,13 @@
 }.bgtrans8:hover{
  background-color: #ff4d6e7c;
 }
+#enquiryform {
+  touch-action: pan-y;
+  overscroll-behavior: contain;
+}
+.styleheaderbg{
+  background-image: url("../../images/view4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
