@@ -8312,7 +8312,7 @@ h1, h2, h3, h4, h5,
         .owl-carousel.home-slider .slider-item .slider-text .text {
           position: relative; }
         .owl-carousel.home-slider .slider-item .slider-text h1 {
-          font-size: 60px;
+          /* font-size: 60px; */
           color: #fff;
           line-height: 1.2;
           font-weight: 800; }
@@ -8320,7 +8320,8 @@ h1, h2, h3, h4, h5,
             display: block; }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
-              font-size: 40px; } }
+              /* font-size: 40px; */
+             } }
         .owl-carousel.home-slider .slider-item .slider-text .subheading {
           font-size: 18px;
           font-weight: 400;
@@ -8422,13 +8423,23 @@ h1, h2, h3, h4, h5,
   background: #fda638 !important; }
 
 .bg-tertiary {
-  background: #8cc152; }
+  background: crimson; }
 
 .bg-quarternary {
   background: #f1453d; }
 
+.bg-quarternary2 {
+  background: #f46036; } 
+  
+.bg-tertiary2{
+  background: #fb6376;
+}
+
 .bg-fifth {
   background: #5d50c6; }
+
+.bg-fifth2 {
+  background: #8cc152; }
 
 .ftc-no-pb {
   padding-bottom: 0 !important; }
@@ -8574,7 +8585,54 @@ h1, h2, h3, h4, h5,
     .services-2 .text h3 {
       font-size: 20px;
       font-weight: 500; }
-
+.iconclr1{
+  background-color: #ef233c !important;
+}
+.icontxt1{
+    color: #ef233c !important;
+}
+.iconclr2{
+  background-color: #ca5310  !important;
+}
+.icontxt2{
+  color: #ca5310  !important;
+}
+.iconclr3{
+  background-color: #c5d86d !important;
+}
+.icontxt3{
+  color: #c5d86d !important;
+}
+.iconclr4{
+  background-color: #c08497 !important;
+}
+.icontxt4{
+  color: #c08497 !important;
+}
+.iconclr5{
+  background-color: #60d394 !important;
+}
+.icontxt5{
+  color: #60d394 !important;
+}
+.iconclr6{
+  background-color: #84dcc6 !important;
+}
+.icontxt6{
+  color: #84dcc6 !important;
+}
+.iconclr7{
+  background-color: #4ba3c3 !important;
+}
+.icontxt7{
+  color: #4ba3c3 !important;
+}
+.iconclr8{
+  background-color: #ff4d6d !important;
+}
+.icontxt8{
+  color: #ff4d6d !important;
+}
 .ftco-intro {
   padding: 8em 0;
   width: 100%;

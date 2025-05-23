@@ -42,3 +42,29 @@
 #enquiryIcon:hover {
   background-color: #007bff;
 }
+.txtclr{
+  color: #0b3954;
+}
+.bgtransition{
+  border-radius: 10px;
+  padding: 20px;
+    transition: background-color 0.4s ease;
+}
+.bgtrans5:hover{
+ background-color: #60d3945e;
+}
+.bgtrans1:hover{
+ background-color: #ef233b56;
+}.bgtrans2:hover{
+ background-color: #ca541062 ;
+}.bgtrans3:hover{
+ background-color: #c4d86d6f;
+}.bgtrans4:hover{
+ background-color: #c0849774;
+}.bgtrans6:hover{
+ background-color: #84dcc668;
+}.bgtrans7:hover{
+ background-color: #4ba3c369;
+}.bgtrans8:hover{
+ background-color: #ff4d6e7c;
+}
