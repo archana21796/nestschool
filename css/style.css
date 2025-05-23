@@ -9190,10 +9190,18 @@ textarea.form-control {
         font-size: 18px; }
 
 .testimony-wrap {
-  display: block;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   position: relative;
   background: rgba(255, 255, 255, 0.1);
   color: rgba(0, 0, 0, 0.8); }
+  @media (min-width: 768px) {
+  .testimony-wrap {
+    flex-direction: row;
+  }
+}
   .testimony-wrap .user-img {
     width: 120px;
     height: 120px;
