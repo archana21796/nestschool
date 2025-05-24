@@ -150,30 +150,30 @@
 		<div class="container-fluid styleheaderbg">
 			<div class="row align-items-center justify-content-center">
 				<div class="col-lg-6 text-center text-white mb-4 mb-lg-0">
-					<h1 class="mb-4 text-white fw-bold">IB PYP and Cambridge Affiliated School in Chennai <span>Pre-KG to Grade 9 Admissions Open</span></h1>
+					<h1 class="mb-4 text-white fw-bold fontstyle">IB PYP and Cambridge Affiliated School in Chennai <span>Pre-KG to Grade 9 Admissions Open</span></h1>
 				</div>
 				<div class="col-md-8 col-lg-5" id="enquiryform">
-				<form class="bg-light p-2 p-md-4 p-lg-5 rounded m-3">
+				<form class="bg-light p-2 p-md-4 p-lg-5 rounded m-2">
                 <div class="form-row">
                   <div class="form-group col-md-6">
-                    <label for="firstName">First Name</label>
+                    <label for="firstName">First Name <span class="text-danger">*</span></label>
                     <input type="text" class="form-control" id="firstName" placeholder="First Name">
                   </div>
                   <div class="form-group col-md-6">
-                    <label for="lastName">Last Name</label>
+                    <label for="lastName">Last Name <span class="text-danger">*</span></label>
                     <input type="text" class="form-control" id="lastName" placeholder="Last Name">
                   </div>
                 </div>
                 <div class="form-group">
-                  <label for="email">Email</label>
+                  <label for="email">Email<span class="text-danger">*</span></label>
                   <input type="email" class="form-control" id="email" placeholder="Email">
                 </div>
                 <div class="form-group">
-                  <label for="phone">Phone Number</label>
+                  <label for="phone">Phone Number <span class="text-danger">*</span></label>
                   <input type="tel" class="form-control" id="phone" placeholder="Phone Number">
                 </div>
 				<div class="form-group">
-				<label for="grade">Grade</label>
+				<label for="grade">Grade <span class="text-danger">*</span></label>
 				<select class="form-control" id="grade">
 					<option disabled selected>Select Grade</option>
 					<option>Toddler Programme</option>
@@ -185,6 +185,16 @@
 					<option>Grade 6–9</option>
 					<option>Grade 11</option>
 				</select>
+				</div>
+				  <div class="form-group">
+					<label for="referral">Where did you hear about us? <span class="text-danger">*</span></label>
+					<select class="form-control" id="referral">
+					<option disabled selected>Select an option</option>
+					<option>Facebook</option>
+					<option>Instagram</option>
+					<option>Google Search</option>
+					<option>Others</option>
+					</select>
 				</div>
 				<div class="row align-items-center justify-content-center">
                 <button type="submit" class="btn btn-primary w-50">Submit</button>
